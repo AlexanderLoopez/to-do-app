@@ -12,6 +12,20 @@
   cursor: pointer;
 }
 
+/*Colors*/
+
+.task-container:nth-child(3n + 1){
+  background-color: #1b1b32;
+}
+
+.task-container:nth-child(3n + 2){
+  background-color: #2a2a40;
+}
+
+.task-container:nth-child(3n + 3){
+  background-color: #3b3b4f;
+}
+
 /* Text */
 
 .task-text {
@@ -32,6 +46,6 @@
 /* Task Completed */
 
 .task-container.completed {
-  background-color: rgb(116, 107, 107);
+  background-color: rgb(83, 77, 77);
   text-decoration: line-through;
 }
