@@ -1,6 +1,6 @@
 import './App.css';
 import toDoLogo from './images/to-do-logo.png';
-import Tarea from './components/Task';
+import TaskList from './components/TaskList';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       </div>
       <div className='principal-list'>
         <h1>My Tasks</h1>
-        <Tarea text='Learn React'/>
+        <TaskList />
       </div>
     </div>
   );
